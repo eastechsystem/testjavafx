@@ -4,6 +4,7 @@
 	<groupId>com.fx.client</groupId>
 	<artifactId>fxclient</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>fxclientapp</name>
 
 	<repositories>
