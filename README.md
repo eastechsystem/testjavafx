@@ -13,7 +13,7 @@ An order book is always referred to in the API as "Major_Minor". For example: "b
 3. Ticker : https://api.bitso.com/v3/ticker/?book=btc_mxn
 
 #Maven Goal for Building Application as.
-1. mvn clean compile assembly:single
+mvn clean compile assembly:single
 
 #Application description for building and Running. 
 Above mentioned maven goal will build the pom application as jar file in target folder. In target folder generated jar file as 'fxclient-jar-with-dependencies.jar' is executable. you can just click and run it.
