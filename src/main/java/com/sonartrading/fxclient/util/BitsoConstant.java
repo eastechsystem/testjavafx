@@ -41,26 +41,26 @@ public final class BitsoConstant {
 	
 	private static void loadTableColumnTitlesForOrderBook(){
 		tableColumnTitlesForOrderBook.put("book", "Book");
-		tableColumnTitlesForOrderBook.put("price", "Price");
-		tableColumnTitlesForOrderBook.put("amount", "Amount");
+		tableColumnTitlesForOrderBook.put("price", "Price (MXN)");
+		tableColumnTitlesForOrderBook.put("amount", "Amount (BTC)");
 	}
 	
 	private static void loadTableColumnTitlesForTrade(){
 		tableColumnTitlesForTrade.put("id", "Trade Id");
 		tableColumnTitlesForTrade.put("book", "Book");
 		tableColumnTitlesForTrade.put("createDateTime", "Create At");
-		tableColumnTitlesForTrade.put("amount", "Amount");
+		tableColumnTitlesForTrade.put("amount", "Amount (BTC)");
 		tableColumnTitlesForTrade.put("makerSide", "Maker Side");
-		tableColumnTitlesForTrade.put("price", "Price");
+		tableColumnTitlesForTrade.put("price", "Price (MXN)");
 	}
 	
 	private static void loadTableColumnTitlesForImaginaryTrade(){
 		tableColumnTitlesForImaginaryTrade.put("id", "Trade Id");
 		tableColumnTitlesForImaginaryTrade.put("book", "Book");
 		tableColumnTitlesForImaginaryTrade.put("createDateTime", "Create At");
-		tableColumnTitlesForImaginaryTrade.put("amount", "Amount");
+		tableColumnTitlesForImaginaryTrade.put("amount", "Amount (BTC)");
 		tableColumnTitlesForImaginaryTrade.put("makerSide", "Maker Side");
-		tableColumnTitlesForImaginaryTrade.put("price", "Price");
+		tableColumnTitlesForImaginaryTrade.put("price", "Price (MXN)");
 		tableColumnTitlesForImaginaryTrade.put("tradeRemarkOnTicker", "Trade Remarks On Ticker");
 	}
 	
